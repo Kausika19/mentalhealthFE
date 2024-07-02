@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "98504502705",
+    "firebase_url": "https://mentalhealthapp-ce0a2-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "mentalhealthapp-ce0a2",
+    "storage_bucket": "mentalhealthapp-ce0a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98504502705:android:595d7fdec538338d9a6190",
+        "android_client_info": {
+          "package_name": "com.mentalhealthapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXz0pU3tPuZTpc2icMv_YUMIA9Hu1J9uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
