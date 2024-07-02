@@ -1,6 +1,19 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# MINDGUARD
 
-# Getting Started
+## Description
+The project aimed to develop a comprehensive Mental Health Monitoring and Control Application designed to provide users with tools to manage their mental health effectively. Addressing the rising need for accessible mental health services, the application features include mood tracking, sentiment analysis, and stress-relieving exercises. The methodology adopted a user-centric approach through Agile development practices, ensuring the application's design and functionality are closely aligned with user needs and preferences. 
+
+This project is the frontend of the application designed using React Native to detect users' moods through text journaling, breathing exercises, meditation, track users' progress, and short activities.
+
+## Features
+- Mood detection through user text/journaling
+- Guided breathing exercises
+- Meditation sessions
+- Short activities for mood enhancement
+- Mood tracking and history
+- Quick emergency dial
+
+## Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
@@ -59,21 +72,9 @@ Now that you have successfully run the app, let's modify it.
 
 You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+## Usage
+The application won't be able to detect moods through journaling or track your mood because the backend server is not currently hosted, and encryption and decryption services from AWS KMS are not subscribed due to cost. Authentication works with Firebase, but since its API key is not provided, you will need to create a Firebase project and link it with this project to use the login and sign-up features. Once it is linked and the project is running, you can engage in guided breathing exercises, participate in meditation sessions, and perform short activities to enhance your mood.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Demo video
+The video of the fully functional application can be found at the following link:
+Demo Link: https://drive.google.com/file/d/1osiFdP2HoOR9vpEY5JCRvBrLrOxHcMcL/view
