@@ -13,6 +13,13 @@ This project is the frontend of the application designed using React Native to d
 - Mood tracking and history
 - Quick emergency dial
 
+## Usage
+The application won't be able to detect moods through journaling or track your mood because the backend server is not currently hosted, and encryption and decryption services from AWS KMS are not subscribed due to cost. Authentication works with Firebase, but since its API key is not provided, you will need to create a Firebase project and link it with this project to use the login and sign-up features. Once it is linked and the project is running, you can engage in guided breathing exercises, participate in meditation sessions, and perform short activities to enhance your mood.
+
+## Demo video
+The video of the fully functional application can be found at the following link:
+Demo Link: https://drive.google.com/file/d/1osiFdP2HoOR9vpEY5JCRvBrLrOxHcMcL/view
+
 ## Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -71,10 +78,3 @@ Now that you have successfully run the app, let's modify it.
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
-
-## Usage
-The application won't be able to detect moods through journaling or track your mood because the backend server is not currently hosted, and encryption and decryption services from AWS KMS are not subscribed due to cost. Authentication works with Firebase, but since its API key is not provided, you will need to create a Firebase project and link it with this project to use the login and sign-up features. Once it is linked and the project is running, you can engage in guided breathing exercises, participate in meditation sessions, and perform short activities to enhance your mood.
-
-## Demo video
-The video of the fully functional application can be found at the following link:
-Demo Link: https://drive.google.com/file/d/1osiFdP2HoOR9vpEY5JCRvBrLrOxHcMcL/view

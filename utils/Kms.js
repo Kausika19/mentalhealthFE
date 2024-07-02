@@ -2,15 +2,15 @@ import AWS from 'aws-sdk';
 import {Buffer} from 'buffer';
 
 AWS.config.update({
-  accessKeyId: 'AKIAXYKJVVQACBVBGUUD',
-  secretAccessKey: '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',
-  region: 'eu-north-1',
+  accessKeyId: 'accessKeyId',
+  secretAccessKey: 'secretAccessKey',
+  region: 'region',
 });
 
 const encryptData = async (data) => {
     const kms = new AWS.KMS();
     const params = {
-      KeyId: 'arn:aws:kms:eu-north-1:533267328000:key/fd6e77ed-c242-4929-920b-2c19d5851f94',
+      KeyId: 'KeyId',
       Plaintext: data,
     };
     
